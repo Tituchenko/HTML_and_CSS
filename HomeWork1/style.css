@@ -1,0 +1,54 @@
+a {
+text-decoration: none;
+}
+
+.menu { 
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+    /* Отсебятина */
+    display: block;
+    line-height: 30px;
+    padding: 5px;
+    margin: 2px;
+    width: 100px;
+    text-align: left;
+    border: #000 solid 2px;
+    
+}
+.title {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.content {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.subtitle {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+/* Отсебятина */
+.menu:hover { 
+    background-color: coral;
+    color: white;
+    font-weight: 700;    
+}
+
+li {
+    list-style-type: circle;
+}
+
+li:hover {
+    list-style-type: disc;
+}
