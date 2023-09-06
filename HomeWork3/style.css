@@ -75,6 +75,9 @@ main {
 }
 
 .main-content {
+	display: flex;
+	justify-content: space-between;
+	gap: 40px;
 }
 
 .main-content__wrapper {
@@ -89,9 +92,13 @@ main {
 	padding-top: 17px;
 	color: #888;
 	font-size: 20px;
+	padding-bottom: 37px;
 }
 
 .main-content__btn-list {
+	display: flex;
+	justify-content: flex-start;
+	gap: 72px;
 }
 
 .main-content_btn{
@@ -118,6 +125,9 @@ main {
 	font-family: Gilroy-Bold;
 	font-size: 15px;
 	cursor: pointer;
+	display: flex;
+	justify-content: start;
+	align-items: center;
 }
 
 footer {
@@ -125,4 +135,24 @@ footer {
 
 .logos {
 	padding-top: 216px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header.container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap:14px;
+}
+
+.menu{
+	display: flex;
+	gap:10px;
+	align-items: center;
 }
