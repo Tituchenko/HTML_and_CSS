@@ -10,9 +10,6 @@ body{
     font-weight: 400;
 }
 header{
-    /* width: 1600px; */
-    /* width:100%; */
-    max-width: 1600px;
     margin: 0 auto;
     height: 75px;
     display: flex;
@@ -32,21 +29,25 @@ header{
     padding-right: 240px;
 }
 .banner{
-    margin: 0 auto;
     background-color: #F1E4E6;
     display: flex;
     align-items: center;
-    justify-content: start;
-    /* width: 1600px; */
-    max-width: 1600px;
+    justify-content: center;
+    
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+
+}
+.banner_photo{
+    display: flex;
+    justify-content: center;
+    width:50%;
 }
 
 .slogan{
-    /* margin-top: 290px; */
     height: 92px;
     border-left: 12px solid #F16D7F;
     padding-left: 16px;
-    /* margin-right: 330px; */
     min-width: 377px;
 }
 .the_brand{
@@ -61,7 +62,8 @@ header{
     color: #F16D7F;
 }
 .container{
-    width: 1140px;
+    max-width: 1140px;
+    min-width: 1024px;
     margin: 0 auto;
     display:flex;
 }
@@ -177,5 +179,60 @@ h3{
     background-color:#fff;
     border: 1px solid #FF6A6A;
     cursor: pointer;
+}
 
+@media (max-width: 1024px) and (min-width: 768px) {
+    .menu.left{
+        padding-left: 32px;
+    }
+    .menu.right{
+        padding-right: 41px;
+    }
+    .banner_photo_img{
+        content: url("./img/big_men_plan.png");
+    }
+
+    .top_card {
+        width: 232px;
+        height: 168px;
+        background-size: contain;
+    }
+
+    .main_card{
+       padding-top: 73px;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap:20px;
+    }
+    .container{
+        
+            max-width: 734px;
+            min-width: auto;
+            margin: 0 auto;
+            display:flex;
+        
+        margin: 0 auto;
+        display:flex;
+    }
+    .slogan{
+        height: 78px;
+        min-width: 283px;
+    }
+    .the_brand{
+        font-size: 44px;
+    }
+    .luxerious{
+        font-size: 24px;
+    }
+    .top_card.long{
+        height: 116px;
+    
+    }
+
+    .main_content{
+        padding-top: 110px;
+    }
+    
+       
+    
 }
