@@ -202,17 +202,16 @@ h3{
        padding-top: 73px;
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-        gap:20px;
+        gap:10px;
     }
     .container{
         
-            max-width: 734px;
-            min-width: auto;
-            margin: 0 auto;
-            display:flex;
-        
+        max-width: 734px;
+        min-width: auto;
         margin: 0 auto;
         display:flex;
+        justify-self:center;     
+   
     }
     .slogan{
         height: 78px;
@@ -235,4 +234,66 @@ h3{
     
        
     
+}
+@media (max-width: 767px) and (min-width: 320px) {
+    .menu.left{
+        padding-left: 16px;
+    }
+    .menu.right{
+        padding-right: 26px;
+    }
+    .profile{
+        display: none;
+    }
+    .basket{
+        display: none;
+    }
+    .banner_photo{
+        display: none;
+    }
+    .banner{
+        height: 363px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .the_brand{
+        font-size: 38px;
+    }
+    .luxerious {
+        font-size: 20px;
+    }
+    .slogan{
+        height: 70px;
+        min-width: 236px;
+    }
+    .top_cards_list{
+        display: flex;
+        flex-direction: column;
+    }
+    .main_card{
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        
+        max-width: 360px;
+        min-width: auto;
+        /* margin: 0 auto; */
+        display:flex;
+        justify-content: center;
+
+    }
+
+    .top_card.long{
+
+        height: 111px;
+    }
+    .main_content{
+        padding-top: 64px;
+    }
+    .main_card{
+        padding-top: 64px;
+        gap:16px;
+    }
+
 }
