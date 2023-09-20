@@ -180,6 +180,107 @@ h3{
     border: 1px solid #FF6A6A;
     cursor: pointer;
 }
+footer{
+    background-color: #000;
+}
+
+.bottom_list{
+    height:340px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.bottom{
+    text-align: center;
+
+}
+.bottom h3{
+    padding-top: 28px;
+    color: #FBFBFB;
+    font-size: 20px;
+}
+
+.bottom P{
+    padding-top: 16px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.subscribe_list{
+    height: 448px;
+    background: url("./img/serfer.png");
+}
+.shadow2{
+    background: rgba(244, 244, 244, 0.70);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.bottom_form{
+    display: flex;
+}
+.subscribe_list2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:223px;
+}
+.bottom_girl{
+    padding-top: 97px;
+    text-align: center;
+}
+.bottom_girl p{
+    color: #222224;
+    font-size: 20px;
+    width: 360px;
+}
+.subscribe{
+    color: #222224;
+    line-height: 167.2%;
+    text-align: center;
+    
+}
+.subscribe h3{
+
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+.subscribe p{
+    font-size: 24px;
+    font-weight: 400;
+    
+
+}
+.bottom_btn{
+    display: inline;
+    padding-top: 32px;
+}
+
+.btn_email{
+    width: 256px;
+    height: 49px;
+    background-color:  #E1E1E1;
+    border: 0;
+    color: #222224;
+    font-size: 14px;
+    border-radius: 20px 0 0 20px;
+    padding-left: 20px;
+}
+
+.btn_subscribe{
+    width: 100px;
+    height: 49px;
+    background-color: #F16D7F;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 0 20px 20px 0;
+   
+
+}
 
 @media (max-width: 1024px) and (min-width: 768px) {
     .menu.left{
