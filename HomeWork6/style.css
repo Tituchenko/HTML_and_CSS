@@ -390,6 +390,37 @@ footer{
     justify-content: center;
 
 }
+.hidden_menu{
+    width: 232px;
+    position:absolute;
+    right: 0;
+    background-color: #FFF;
+    filter: drop-shadow(6px 4px 35px rgba(0, 0, 0, 0.21));
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 32px;
+
+}
+.title{
+    padding-top: 32px;
+    padding-left: 33px;
+    background-color: #FFF;
+    color: #000;
+    font-weight: 700;
+}
+.category_menu{
+    padding-top: 24px;
+    padding-left: 33px;
+    color: #F16D7F;
+}
+.element_menu{
+    color: #6F6E6E;
+    padding-left: 53px;
+    padding-top: 12px;   
+}
+.hidden{
+    display: none;
+}
 
 @media (max-width: 1024px) and (min-width: 768px) {
     .menu.left{
